@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 10px;
+
+    &:nth-of-type(2)>.title {
+        background-color:#208872;
+    }
+    &:nth-of-type(2)>.card_price {
+        background-color: #24ae8e;
+    }
+
+    &:nth-of-type(3) {
+        margin-top: 0;
+        
+        -webkit-box-shadow: 0px 0px 10px 2px #223c5033;
+    }
+    &:nth-of-type(3)>.title {
+        padding: 20px;
+        background-color:#c4554e;
+    }
+    &:nth-of-type(3)>.card_price {
+        background-color:#f46a5f;
+    }
+
+    &:nth-of-type(4)>.title {
+        background-color:#282f37;
+    }
+    &:nth-of-type(4)>.card_price {
+        background-color: #333a44;
+    }
+}
+.title {
+    padding: 10px;
+    background-color: #229cab;
+    color: #f4f4f4;
+    text-transform: capitalize;
+}
+.card_price {
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #2dc1d6;
+    color: #f4f4f4;
+    padding: 20px;
+}
+.currency { 
+    align-self: flex-start;
+}
+.price {
+    font-size: 60px;
+    font-weight: 800;
+}
+.info {
+    padding: 10px;
+    background-color: #faf7f7;
+    color: #616060;
+}
+.traffic {
+    padding: 10px;
+    background-color: #eeeeef;
+    color: #616060;
+}
